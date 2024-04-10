@@ -18,10 +18,9 @@ Inside the SCSS file, I define CSS classes for styling my components. For instan
 
 ## 4. Import SCSS File into Component
 
-I then import the SCSS file into my component file where I want to apply the styles. For example:
+## 5. For Deployment
 
-```javascript
-import Usercard from '../styles/UserProfile.module.scss';
+I acp this to github then I connected it to netlify and configured it for deployment.
 
  
 ## Getting Started
