@@ -1,5 +1,29 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+ ### For Styling I ...
+
+# Styled Components with SCSS in Next.js
+
+## 1. Organize my Project Structure
+
+Firstly, make sure your project structure is organized. I typically have folders for components (`components/`) and styles (`styles/`).
+
+## 2. Create SCSS File
+
+Next, I create a SCSS file for styling my components. For example, I might name it `UserProfile.module.scss`.
+
+## 3. Define CSS Classes in SCSS File
+
+Inside the SCSS file, I define CSS classes for styling my components. For instance, I might define `.user-card` for styling a user card component.
+
+## 4. Import SCSS File into Component
+
+I then import the SCSS file into my component file where I want to apply the styles. For example:
+
+```javascript
+import Usercard from '../styles/UserProfile.module.scss';
+
+ 
 ## Getting Started
 
 First, run the development server:
